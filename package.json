@@ -1,0 +1,39 @@
+{
+  "name": "magblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "npm-run-all --parallel sync wpstart tailwindwatch",
+    "sync": "browser-sync start -p 'http://localhost:8000/' --files './app/wp-content/themes/magblog/**/*.php' './app/wp-content/themes/magblog/build/*.js' './app/wp-content/themes/magblog/build/*.css'",
+    "buildwp": "wp-scripts build",
+    "build": "npm-run-all --sequential buildwp tailwindbuild",
+    "wpstart": "wp-scripts start",
+    "start": "npm-run-all --parallel wpstart tailwindwatch",
+    "tailwindbuild": "tailwindcss -i ./app/wp-content/themes/magblog/src/index.css -o ./app/wp-content/themes/magblog/build/index.css --minify",
+    "tailwindwatch": "tailwindcss -i ./app/wp-content/themes/magblog/src/index.css -o ./app/wp-content/themes/magblog/build/index.css --watch --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Usabit <contato@usabit.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.4",
+    "@wordpress/scripts": "^23.6.0",
+    "browser-sync": "^2.27.10",
+    "cz-conventional-changelog": "^3.3.0",
+    "npm-run-all": "^4.1.5",
+    "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
+    "tiny-slider": "^2.9.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
