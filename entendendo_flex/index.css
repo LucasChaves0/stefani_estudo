@@ -1,0 +1,16 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+.flex{}
+
+.container .card{
+    display: flex;
+    margin-bottom: 50px;
+}
+.flex__image{
+    max-width: 100px;
+}
