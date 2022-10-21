@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: 'Barbie';
+    src: url('../fontes/DollieScript_PersonalUse.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #fcdde6;
+    --cor1: #febdd1;
+    --cor2: #FD6391;
+    --cor3: #FC175C;
+    --cor4: #C91249;
+    --cor5: #a50f3c;
+
+    --fonte-barbie: 'Barbie', cursive;
+    --font-destaque: 'Montserrat', cursive;
+}
+
+body {
+    background: var(--cor1);
+}
+
+
+main {
+    padding: 10px;
+    margin: 0 auto 20px;
+    max-width: 80%;
+    background: var(--cor0);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 1px 10px #d49bac65;
+}
+
+.movies__title {
+    font-weight: bold;
+    font-size: 1.8em;
+    font-family: var(--font-destaque);
+    padding: 3px 0;
+    letter-spacing: 0.1em;
+    color: var(--cor2);
+    text-transform: uppercase;
+    text-align: center;
+    background-image: linear-gradient(to right, transparent, var(--cor1) 45%, var(--cor2) 10%, var(--cor1) 45%, transparent);
+    margin: 0 0 20px 0;
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cards strong {
+    font-weight: bold;
+}
+
+.movies__img {
+    height: 150px;
+    padding: 5px;
+    margin: 10px; 
+    border: 1px dotted var(--cor5);  
+}
+
+.cards__text {
+    line-height: 1.5em;
+    height: 100%;
+    padding: 5px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.movies__subtitle {
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: var(--font-destaque);
+    color: #fff;
+    text-shadow: 1px 1px 4px var(--cor2);
+    padding: 5px 15px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+
+.movies__description {
+    margin: auto;
+    padding: 15px;
+    color: var(--cor2);
+}

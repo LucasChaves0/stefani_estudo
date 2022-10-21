@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: 'Barbie';
+    src: url('../fontes/DollieScript_PersonalUse.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #fcdde6;
+    --cor1: #febdd1;
+    --cor2: #FD6391;
+    --cor3: #FC175C;
+    --cor4: #C91249;
+    --cor5: #a50f3c;
+
+    --fonte-barbie: 'Barbie', cursive;
+    --font-destaque: 'Montserrat', cursive;
+}
+
+body {
+    background: var(--cor1);
+}
+
+.header {
+    background: var(--cor2);
+    height: 100px;
+    padding: 10px 20px 0;
+    box-shadow: 2px 5px 8px #c27b904a;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__title {
+    font-size: 4em;
+    font-family: var(--fonte-barbie);
+    color: var(--cor4);
+    padding: 0 10px;
+    text-align: center;
+    text-shadow: 3px 2px 6px #febdd0ab;
+}
+
+.header__description {
+    color: var(--cor1);
+    max-width: 350px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.7em;
+    font-family: var(--font-destaque);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__nav-link {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--font-destaque);
+    color: var(--cor1);
+    border: 1px solid var(--cor1);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.header__nav-link:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+    background: var(--cor0);
+}
+.header__nav-link:active {
+    text-decoration: underline;
+    color: var(--cor4);
+    background: var(--cor0);
+}
+
+.footer {
+    background: var(--cor2);
+    color: var(--cor1);
+    font-size: 0.8em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: 'Barbie';
+    src: url('../fontes/DollieScript_PersonalUse.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #fcdde6;
+    --cor1: #febdd1;
+    --cor2: #FD6391;
+    --cor3: #FC175C;
+    --cor4: #C91249;
+    --cor5: #a50f3c;
+
+    --fonte-barbie: 'Barbie', cursive;
+    --font-destaque: 'Montserrat', cursive;
+}
+
+.body {
+    background: var(--cor1);
+}
+
+main {
+    padding: 10px 10px 20px 10px;
+    margin: 0 auto 20px;
+    max-width: 80%;
+    background: var(--cor0);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 1px 10px #d49bac65;
+}
+
+.games__title {
+    font-weight: bold;
+    font-size: 1.8em;
+    font-family: var(--font-destaque);
+    padding: 3px 0;
+    letter-spacing: 0.1em;
+    color: var(--cor2);
+    text-transform: uppercase;
+    text-align: center;
+    background-image: linear-gradient(to right, transparent, var(--cor1) 45%, var(--cor2) 10%, var(--cor1) 45%, transparent);
+    margin: 0 0 20px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-areas: 
+    "card-img"
+    "card-body";
+    gap: 1rem;
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.games__card {
+    background: #fdfdfd8a;
+    border-radius: 5px;
+}
+
+.games__card-img {
+    grid-area: card-img;
+    width: 100%;
+}
+
+.games__card-body {
+    display: grid;
+    grid-area: card-body;
+    grid-template-areas:
+    "card-header"
+    "card-description";
+    grid-template-rows: 60px auto;
+    padding: 10px;
+}
+
+.games__card-header {
+    line-height: 1.2em;
+}
+
+.games__card-title {
+    font-size: 1em;
+    font-family: var(--font-destaque);
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+.games__card-title:hover {
+    font-size: 1.1em;
+}
+
+.games__card-data {
+    font-size: .9em;
+    color: rgb(123, 123, 123);
+}
+
+.games__card-description em {
+    font-style: italic;
+}
+
+.games__card-description {
+    text-align: justify;
+}
