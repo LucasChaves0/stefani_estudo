@@ -77,6 +77,11 @@ body {
     color: var(--cor4);
     background: var(--cor0);
 }
+.header__nav-link:active {
+    text-decoration: underline;
+    color: var(--cor4);
+    background: var(--cor0);
+}
 
 main {
     padding: 10px;
