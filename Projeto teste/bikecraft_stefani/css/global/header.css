@@ -17,3 +17,16 @@
     text-decoration: none;
 }
 
+.header__list li::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 4px;
+    transition: 1s;
+}
+.header__list li:hover::after{
+    width: 100%;
+}
+
