@@ -17,6 +17,7 @@
     text-decoration: none;
 }
 
+/* 
 .header__list li::after{
     content: '';
     display: block;
@@ -28,5 +29,6 @@
 }
 .header__list li:hover::after{
     width: 100%;
-}
+} 
+*/
 
