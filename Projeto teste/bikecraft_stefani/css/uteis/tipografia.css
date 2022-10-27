@@ -1,0 +1,53 @@
+/*HEADER*/
+
+.header__list {
+    font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+/* PAGINA BICICLETAS */
+
+.title__description {
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+
+.title__title {
+    font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+.bikes__title, .bikes__title-2 {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.bikes__description, .bikes__description-2 {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.bikes__list-1, .bikes__list-2, .bikes__list-3 {
+    font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+/*FOOTER*/
+
+.footer__container ul {
+    margin-bottom: 32px;
+}
+
+.footer__contact-title, .footer__info-title {
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+
+.footer__contact-list, .footer__info-list {
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.footer p {
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}

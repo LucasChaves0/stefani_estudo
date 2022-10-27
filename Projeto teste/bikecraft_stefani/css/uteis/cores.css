@@ -1,0 +1,86 @@
+:root {
+    --cor-0: #ffffff;
+    --cor-1: #f7f7f7;
+    --cor-2: #ededed;
+    --cor-3: #dedede;
+    --cor-4: #cccccc;
+    --cor-5: #b2b2b2;
+    --cor-6: #9c9c9c;
+    --cor-7: #717171;
+    --cor-8: #595959;
+    --cor-9: #404040;
+    --cor-10: #2e2e2e;
+    --cor-11: #111111;
+    --cor-12: #000000;
+    --cor-p1: #ffbb00;
+    --cor-p2: #e4a30b;
+    --cor-p3: #a66f00;
+    --cor-p4: #664400;
+    --cor-p5: #332200;
+}
+
+/*HEADER*/
+
+.header {
+    background: var(--cor-12);
+}
+
+.header__list li a {
+    color: var(--cor-0);
+}
+
+/* PAGINA BICICLETAS*/
+
+.title {
+    background: var(--cor-11);
+}
+
+.title__description {
+    color: var(--cor-5);
+}
+
+.title__title {
+    color: var(--cor-0);
+}
+
+.title__title span {
+    color: var(--cor-p1);
+}
+
+.bikes__title-2 {
+    color: var(--cor-0);
+}
+
+.bikes__description {
+    color: var(--cor-8);
+}
+
+.bikes__description-2 {
+    color: var(--cor-5);
+}
+
+.bikes__list-1, .bikes__list-3 {
+    color: var(--cor-8);
+}
+
+.bikes__list-2 {
+    color: var(--cor-5);
+}
+
+/*FOOTER*/
+
+.footer {
+    background: var(--cor-12);
+}
+
+.footer__contact-title, .footer__info-title {
+    color: var(--cor-0);
+}
+
+.footer__contact-list, .footer__info-list, .footer__copy, .footer a {
+    color: var(--cor-5);
+}
+
+.footer p {
+    color: var(--cor-5);
+}

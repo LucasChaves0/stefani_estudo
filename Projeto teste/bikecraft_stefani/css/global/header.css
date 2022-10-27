@@ -1,0 +1,19 @@
+.header {
+    padding: 20px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 1160px;
+    margin: 10px auto;
+}
+
+.header__list {
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+}
+
