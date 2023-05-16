@@ -1,35 +1,12 @@
-/*HEADER*/
+/* GLOBAL */
+
+/*header*/
 
 .header__list {
     font: 400 1.125rem/1.35 "Poppins", sans-serif;
 }
 
-/* PAGINA BICICLETAS */
-
-.title__description {
-    font: 400 1.5rem/1.5 "Roboto", sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.015em;
-    text-transform: uppercase;
-}
-
-.title__title {
-    font: 600 4rem/1.125 "Poppins", sans-serif;
-}
-
-.bikes__title, .bikes__title-2 {
-    font: 600 2rem/1.25 "Poppins", sans-serif;
-}
-
-.bikes__description, .bikes__description-2 {
-    font: 400 1rem/1.5 "Roboto", sans-serif;
-}
-
-.bikes__list-1, .bikes__list-2, .bikes__list-3 {
-    font: 400 1.125rem/1.35 "Poppins", sans-serif;
-}
-
-/*FOOTER*/
+/*footer*/
 
 .footer__container ul {
     margin-bottom: 32px;
@@ -50,4 +27,347 @@
 
 .footer p {
     font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+/* TITULO PÁGINAS INTERNAS */
+
+.title__title-1 {
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+
+.title__title-2 {
+    font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+@media (max-width: 800px) {
+    .title__title-1 {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+
+    .title__title-2 {
+        font-size: 2rem;
+    }
+}
+
+/* PAGINA HOME */
+
+/*seção 1 (título)*/
+
+.title-index__title {
+    font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+.title-index__description {
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.title-index__button {
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+/*seção 2 (bicicletas)*/
+
+.bicicletas-index__title {
+    font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+.bicicletas-index__list-title {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.bicicletas-index__list-price {
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+/*seção 3 (tecnologia)*/
+
+.tecnologia__title-1 {
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+}
+
+.tecnologia__title-2 {
+    font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+.tecnologia__description {
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.tecnologia__link {
+    font: 500 1.5rem/1.5 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.tecnologia__item-title {
+    font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+.tecnologia__item-description {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+/*seção 4 (parceiros)*/
+
+.parceiros__title {
+    font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+/*seção 5 (depoimento)*/
+
+.depoimento__quote {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.depoimento__content span {
+    font: 400 1.125rem/1.35 "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+/*seção 6 (seguros)*/
+
+.seguros-index__title {
+    font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+.seguros-index__title-1,
+.seguros-index__title-2 {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.seguros-index__price {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.seguros-index__info {
+    font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+
+.seguros-index__list {
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+.seguros-index__item a {
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+/* PAGINA BICICLETAS */
+
+.bicicletas__price {
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+.bicicletas__title, 
+.bicicletas__title-2 {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.bicicletas__description, 
+.bicicletas__description-2 {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.bicicletas__list,
+.bicicletas__list-2 {
+    font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+.bicicletas__list-button {
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+/* PAGINA DA BICICLETA */
+
+.title__price {
+    font: 500 2rem/1.25 "Roboto", sans-serif;
+}
+
+.bicicleta__description {
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.bicicleta__button {
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.bicicleta__purchaseinfo {
+   font: 400 0.75rem/1.35 "Poppins", sans-serif;;
+}
+
+.bicicleta__content h2 {
+    font: 400 0.75rem/1.35 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.bicicleta__info-list-title {
+    font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+.bicicleta__info-list-description {
+    font: 400 0.875rem/1.43 "Roboto", sans-serif;
+}
+
+.bicicleta__datasheet-list {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+/*seção escolha a sua*/
+
+.bike-list__title {
+    font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+.bike-list__subtitle {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.bike-list__price {
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+/*seção seguro*/
+
+.seguro-bike__title {
+    font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+.seguro-bike__description {
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.seguro-bike__button {
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+/* PÁGINA DE ORÇAMENTO*/
+.orcamento__title {
+    font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+
+.orcamento__title-2 {
+    font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+
+/* PÁGINA DE SEGUROS */
+
+.seguros__title,
+.seguros__title-2 {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.seguros__price {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.seguros__info {
+    font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+
+.seguros__list {
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+.seguros__item a {
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+/*seção vantagens*/
+
+.benefits__title {
+    font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+.benefits__list-subtitle {
+    font: 400 1.5rem/1.5 "Poppins", sans-serif;
+}
+
+.benefits__list-description {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+/*seção perguntas*/
+
+.perguntas__title {
+   font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+.perguntas__pergunta {
+    font: 400 1.125rem/1.35 "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.perguntas__resposta {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+/* PAGINA DE CONTATOS */
+
+.contato__title {
+    font: 400 1.125rem/1.35 "Poppins", sans-serif;;
+}
+
+.contato__address,
+.contato__contacts {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+/*seção formulario*/ 
+
+.contato__form label {
+    font: 400 1rem/1.5 "Poppins", sans-serif;
+    margin-bottom: 4px;
+}
+
+.contato__form input,
+.contato__form textarea {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    letter-spacing: normal;
+}
+
+.contato__button {
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: normal;
+}
+
+/*seção lojas*/
+
+.lojas__title {
+    font: 600 4rem/1.125 "Poppins", sans-serif;;
+}
+
+.lojas__subtitle {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.lojas__content p {
+    font: 400 1rem/1.5 "Roboto", sans-serif;;
+}
+
+/* PAGINA DE TERMOS */
+
+.termos h2 {
+    font: 400 1.5rem/1.5 "Poppins", sans-serif;
+}
+
+.termos p {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
 }

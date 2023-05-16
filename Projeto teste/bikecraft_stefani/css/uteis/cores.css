@@ -19,7 +19,9 @@
     --cor-p5: #332200;
 }
 
-/*HEADER*/
+/* GLOBAL */
+
+/*header*/
 
 .header {
     background: var(--cor-12);
@@ -29,45 +31,11 @@
     color: var(--cor-0);
 }
 
-/* PAGINA BICICLETAS*/
-
-.title {
-    background: var(--cor-11);
+.header__list li::after {
+    background: var(--cor-0);
 }
 
-.title__description {
-    color: var(--cor-5);
-}
-
-.title__title {
-    color: var(--cor-0);
-}
-
-.title__title span {
-    color: var(--cor-p1);
-}
-
-.bikes__title-2 {
-    color: var(--cor-0);
-}
-
-.bikes__description {
-    color: var(--cor-8);
-}
-
-.bikes__description-2 {
-    color: var(--cor-5);
-}
-
-.bikes__list-1, .bikes__list-3 {
-    color: var(--cor-8);
-}
-
-.bikes__list-2 {
-    color: var(--cor-5);
-}
-
-/*FOOTER*/
+/*footer*/
 
 .footer {
     background: var(--cor-12);
@@ -83,4 +51,345 @@
 
 .footer p {
     color: var(--cor-5);
+}
+
+/* TITULO PAGINAS INTERNAS */
+
+.title {
+    background: var(--cor-11);
+}
+
+.title__title-1 {
+    color: var(--cor-5);
+}
+
+.title__title-2 {
+    color: var(--cor-0);
+}
+
+.title__title-2 span {
+    color: var(--cor-p1);
+}
+
+/* PAGINA HOME */
+
+/*seção 1 (título)*/
+
+.title-index__title {
+    color: var(--cor-0);
+}
+
+.title-index__title span {
+    color: var(--cor-p1);
+}
+
+.title-index__description {
+    color: var(--cor-5);
+}
+
+.title-index__button {
+    color: var(--cor-p5);
+}
+
+/*seção 2 (bicicletas)*/
+
+.bicicletas-index__title span {
+    color: var(--cor-p1);
+}
+
+.bicicletas-index__list-title {
+    color: var(--cor-12);
+}
+
+.bicicletas-index__list-price {
+    color: var(--cor-8);
+}
+
+/*seção 3 (tecnologia)*/
+
+.tecnologia__title-1,
+.tecnologia__description,
+.tecnologia__item-description {
+    color: var(--cor-5);
+}
+
+.tecnologia__title-2 {
+    color: var(--cor-0);
+}
+
+.tecnologia__title-2 span,
+.tecnologia__link {
+    color: var(--cor-p1);
+}
+
+.tecnologia__item-title {
+    color: var(--cor-0);
+}
+
+/*seção 4 (parceiros)*/
+
+.parceiros__title span {
+    color: var(--cor-p1);
+}
+
+/*seção 5 (depoimento)*/
+
+.depoimento__content span {
+    color: var(--cor-p4);
+}
+
+.depoimento__quote {
+    color: var(--cor-p5);
+}
+
+/*seção 6 (seguros)*/
+
+.seguros-index {
+    background: var(--cor-11);
+}
+
+.seguros-index__title {
+    color: var(--cor-0);
+}
+
+.seguros-index__title span {
+    color: var(--cor-p1);
+}
+
+.seguros-index__title-1 {
+    color: var(--cor-6);
+}
+
+.seguros-index__price {
+    color: var(--cor-0);
+}
+
+.seguros-index__info {
+    color: var(--cor-6);
+}
+
+.seguros-index__list li {
+    color: var(--cor-0);
+}
+
+.seguros-index__title-2 {
+    color: var(--cor-p1);
+}
+
+.seguros-index__first-button {
+    color: var(--cor-0);
+}
+
+.seguros-index__second-button {
+    color: var(--cor-p5);
+}
+
+/* PAGINA BICICLETAS*/
+
+.bicicletas__price {
+    color: var(--cor-0);
+}
+
+.bicicletas__title-2 {
+    color: var(--cor-0);
+}
+
+.bicicletas__description {
+    color: var(--cor-8);
+}
+
+.bicicletas__description-2 {
+    color: var(--cor-5);
+}
+
+.bicicletas__list {
+    color: var(--cor-8);
+}
+
+.bicicletas__list-2 {
+    color: var(--cor-5);
+}
+
+.bicicletas__list-button {
+    color: var(--cor-p5);
+}
+
+/* PAGINA DA BICICLETA */
+
+.title__price {
+    color: var(--cor-5);
+}
+
+.bicicleta__description {
+    color: var(--cor-5);
+}
+
+.bicicleta__button {
+    color: var(--cor-p5);
+}
+
+.bicicleta__purchaseinfo {
+    color: var(--cor-6);
+}
+
+.bicicleta__content h2,
+.bicicleta__content h3 {
+    color: var(--cor-0);
+}
+
+.bicicleta__info-list-description {
+    color: var(--cor-5);
+}
+
+.bicicleta__datasheet-list {
+    color: var(--cor-4);
+}
+
+.bicicleta__datasheet-list span {
+    color: var(--cor-6);
+}
+
+/*seção escolha a sua*/
+
+.bike-list__title span {
+    color: var(--cor-p1);
+}
+
+.bike-list__subtitle {
+    color: var(--cor-12)
+}
+
+.bike-list__price {
+    color: var(--cor-8);
+}
+
+/*seção seguro*/
+
+.seguro-bike__title {
+    color: var(--cor-0);
+}
+
+.seguro-bike__title span {
+    color: var(--cor-p1);
+}
+
+.seguro-bike__description {
+    color: var(--cor-5);
+}
+
+.seguro-bike__button {
+    color: var(--cor-p5);
+}
+
+/* PÁGINA DE ORÇAMENTO */
+.orcamento__title {
+    color: var(--cor-5);
+}
+
+/* PÁGINA DE SEGUROS */
+
+.seguros {
+    background: var(--cor-11);
+}
+
+.seguros__title {
+    color: var(--cor-6);
+}
+
+.seguros__price {
+    color: var(--cor-0);
+}
+
+.seguros__info {
+    color: var(--cor-6);
+}
+
+.seguros__list li {
+    color: var(--cor-0);
+}
+
+.seguros__title-2 {
+    color: var(--cor-p1);
+}
+
+.seguros__first-button {
+    color: var(--cor-0);
+}
+
+.seguros__second-button {
+    color: var(--cor-p5);
+}
+
+/*seção vantagens*/
+
+.benefits {
+    background: var(--cor-12);
+}
+
+.benefits__title {
+    color: var(--cor-0);
+}
+
+.benefits__title span {
+    color: var(--cor-p1);
+}
+
+.benefits__list-subtitle {
+    color: var(--cor-0);
+}
+
+.benefits__list-description {
+    color: var(--cor-5);
+}
+
+/*seção perguntas*/
+
+.perguntas__title {
+    color: var(--cor-12);
+}
+
+.perguntas__title span {
+    color: var(--cor-p1);
+}
+
+.perguntas__pergunta {
+    color: var(--cor-12);
+}
+
+.perguntas__resposta {
+    color: var(--cor-9);
+}
+
+/* PAGINA DE CONTATOS */
+
+.contato__info {
+    color: var(--cor-4);
+}
+
+.contato__title {
+    color: var(--cor-0);
+}
+
+.contato__contacts a {
+    color: var(--cor-4);
+}
+
+/*seção formulario*/
+
+.lojas__title span {
+    color: var(--cor-p1);
+}
+
+.lojas__dados {
+    color: var(--cor-8);
+}
+
+/* PAGINA DE TERMOS */
+
+.termos h2 {
+    color: var(--cor-11);
+}
+
+.termos p {
+    color: var(--cor-10);
 }

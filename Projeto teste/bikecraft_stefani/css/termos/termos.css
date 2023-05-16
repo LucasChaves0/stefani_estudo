@@ -1,0 +1,48 @@
+/* SEÇÃO 1 (titulo) */
+
+.title {
+    padding: 60px 0;
+}
+
+.title__container {
+    max-width: 1160px;
+    margin: 0 auto;
+    background: url(../../img/dec/top-right.svg) no-repeat top right;
+}
+
+.title__title-1 {
+    margin-bottom: 4px;
+}
+
+/* SEÇÃO 2 (termos) */
+
+.termos {
+    padding: 80px 0;
+}
+
+.termos__container {
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.termos h2 {
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+
+.termos p {
+    max-width: 668px;
+    margin: 0 0 24px 0;
+}
+
+.termos p + h2 {
+    margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+    .title {
+        padding: 40px 20px;
+    }
+}

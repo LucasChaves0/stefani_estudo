@@ -1,0 +1,237 @@
+/* SEÇÃO 1 (titulo) */
+
+.title {
+    padding: 60px 0;
+}
+
+.title__container {
+    max-width: 1160px;
+    margin: 0 auto;
+    background: url(../../img/dec/top-right.svg) no-repeat top right;
+}
+
+.title__title-1 {
+    margin-bottom: 4px;
+}
+
+/* SEÇÃO 2 (formulario) */
+
+.contato {
+    background: linear-gradient(var(--cor-11) 265px, var(--cor-1) 0px);
+}
+
+.contato__container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+.contato__info {
+    background: var(--cor-12) url(../../img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;
+    border-radius: 5px 0 0 5px;
+}
+
+.contato__title {
+    margin-bottom: 60px;
+}
+
+.contato__address {
+    margin-bottom: 32px;
+    padding-left: 28px;
+    background: url(../../img/icones/local.svg) no-repeat 0 0px;
+}
+
+.contato__address p {
+    margin-bottom: 12px;
+}
+
+.contato__contacts a {
+    display: block;
+    max-width: max-content;
+    padding-left: 28px;
+    margin-bottom: 8px;
+}
+
+.contato__contacts a:first-child {
+    background: url(../../img/icones/email.svg) no-repeat 0 2px;
+}
+
+.contato__contacts a:nth-child(2) {
+    margin-bottom: 32px ;
+}
+
+.contato__contacts a:nth-child(3) {
+    background: url(../../img/icones/telefone.svg) no-repeat 0 0px;
+    margin-bottom: 60px;
+}
+
+.contato__medias {
+    display: flex;
+    max-width: 100%;
+    padding-left: 28px;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+
+.contato__info,
+.contato__form {
+    padding: 60px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contato__form {
+    background: var(--cor-0);
+    border-radius: 0 5px 5px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contato__form label {
+    display: block;
+}
+
+.contato__form input,
+.contato__form textarea {
+    width: 100%;
+    padding: 12px;
+    background: var(--cor-1);
+    border: 1px solid var(--cor-2);
+    border-radius: 4px;
+}
+
+.contato__form input:focus,
+.contato__form textarea:focus {
+    border-color: var(--cor-p1);
+    background: var(--cor-0);
+    box-shadow: 0 0 0 2px #fea;
+}
+
+.contato__col {
+    grid-column: 1/3;
+}
+
+.contato__button {
+    color: var(--cor-p5);
+    width: max-content;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    border: none;
+}
+
+/* SEÇÃO 3 (lojas) */
+
+.lojas {
+    background: var(--cor-1);
+}
+
+.lojas__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 20px;
+    gap: 0 40px;
+}
+
+.lojas__container h2 {
+    grid-column: 1/-1;
+    margin-bottom: 60px;
+}
+
+.lojas__item img {
+    max-width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+.lojas__item {
+    background: var(--cor-0);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.lojas__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 16px;
+    padding: 32px;
+}
+
+.lojas__content h3 {
+    grid-column: 1/-1;
+}
+
+.lojas__dados {
+    border-left: 2px solid var(--cor-2);
+    padding-left: 12px;
+}
+
+.lojas__dados p:first-child {
+    margin-bottom: 8px;
+}
+
+.lojas__time {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (max-width: 800px) {
+    .title {
+        padding: 40px 20px;
+    }
+
+    .contato__container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .contato__info {
+        background: var(--cor-12);
+        padding: 20px;
+    }
+
+    .contato__form {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .contato__col {
+        grid-column: 1/1;
+    }
+
+    .lojas__container {
+        gap: 20px;
+        padding: 60px 20px;
+    }
+
+    .lojas__container h2 {
+        font-size: 2rem;
+        margin-bottom: 32px;
+    }
+
+    .lojas__content {
+        grid-template-columns: 1fr;
+    }
+    
+    .lojas__subtitle {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .contato__button {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+
+    .lojas__container {
+        grid-template-columns: 1fr;
+    }
+}

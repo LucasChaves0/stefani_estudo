@@ -1,0 +1,464 @@
+/* SEÇÃO TITULO */
+
+.title-index {
+    background: var(--cor-12) url(../../img/dec/bottom-left.svg) no-repeat bottom 160px left 20px;
+    box-shadow: inset 0 -120px var(--cor-0);
+}
+
+.title-index__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 40px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.title-index__content {
+    align-self: end;
+    padding: 0 0 210px 0;
+}
+
+.title-index__title {
+    margin-bottom: 32px;
+}
+
+.title-index__description {
+    margin-bottom: 40px;
+}
+
+.title-index__button {
+    max-width: max-content;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    padding: 18px 32px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+
+.title-index__button:hover {
+    background: linear-gradient(#ffb60d, #e59317);
+}
+
+.title-index__image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* SEÇÃO BICICLETAS */
+
+.bicicletas-index {
+    padding: 60px 0 120px 0;
+}
+
+.bicicletas-index__container {
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.bicicletas-index__title {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    padding: 0 20px;
+}
+
+.bicicletas-index__list {
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+}
+
+.bicicletas-index__list img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.bicicletas-index__list-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.bicicletas-index__list-title::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-right: 8px;
+    background-color: var(--cor-p1);
+    transition: 0.2s;
+}
+
+.bicicletas-index__list-title:hover::before {
+    width: 24px;
+}
+
+.bicicletas-index__list-price {
+    padding: 20px;
+}
+
+/* SEÇÃO TECNOLOGIA */
+
+.tecnologia {
+    background-color: var(--cor-11);
+    box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.tecnologia__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.tecnologia__content {
+    padding: 160px 0;
+}
+
+.tecnologia__title-1 {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tecnologia__title-2 {
+    margin-bottom: 32px;
+}
+
+.tecnologia__description {
+    margin-bottom: 20px;
+}
+
+.tecnologia__link {
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+
+.tecnologia__link:hover {
+    color: var(--cor-0);
+}
+
+.tecnologia__link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+}
+
+.tecnologia__vantagens {
+    display: flex;
+    gap: 40px;
+}
+
+.tecnologia__vantagens img {
+    width: 24px;
+    margin-bottom: 8px;
+}
+
+.tecnologia__item-title {
+    max-width: max-content;
+    margin-bottom: 8px;
+}
+
+.tecnologia__image img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 4px;
+}
+
+/* SEÇÃO PARCEIROS */
+
+.parceiros {
+    padding: 60px 0 120px 0;
+}
+
+.parceiros__container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.parceiros__title {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto 60px auto;
+}
+
+.parceiros__list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.parceiros__list li {
+    display: flex;
+    padding: 32px;
+    border-left: 2px solid var(--cor-2);
+}
+
+.parceiros__list li:first-child,
+.parceiros__list li:nth-child(5) {
+    border-left: none;
+}
+
+.parceiros__list li:nth-child(n + 5) {
+    border-top: 2px solid var(--cor-2);
+}
+
+.parceiros__list img {
+    margin: auto;
+}
+
+/* SEÇÃO DEPOIMENTO */
+
+.depoimento__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-p1);
+}
+
+.depoimento__image img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+
+.depoimento__content {
+    align-self: end;
+    padding: 40px 40px 80px 80px;
+    background: url(../../img/dec/bottom-right-p.svg) no-repeat bottom 40px right 40px;
+}
+
+.depoimento__quote {
+    position: relative;
+    max-width: 512px;
+    margin-bottom: 32px;
+}
+
+.depoimento__quote::before {
+    content: "“";
+    left: -50px;
+    top: -20px;
+}
+
+.depoimento__quote::after {
+    content: "”";
+}
+
+.depoimento__quote::before,
+.depoimento__quote::after {
+    position: absolute;
+    font-size: 5rem;
+    color: var(--cor-p2);
+}
+
+/* SEÇÃO SEGUROS */
+
+.seguros-index {
+    background-color: var(--cor-11);
+}
+
+
+.seguros-index__container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.seguros-index__title {
+    grid-column: 1/-1;
+}
+
+.seguros-index__item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background: var(--cor-12);
+    padding: 32px 32px 32px 60px;
+    border-radius: 4px;
+}
+
+.seguros-index__item span {
+    grid-column: 2;
+    text-align: right;
+    display: block;
+}
+
+.seguros-index__item h3 {
+    margin-bottom: 20px;
+}
+
+.seguros-index__list {
+    margin-bottom: 32px;
+}
+
+.seguros-index__list li {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.seguros-index__list li::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url(../../img/icones/lista.svg);
+    position: absolute;
+    left: -21px;
+}
+
+.seguros-index__item a {
+    grid-column: 1/2;
+}
+
+.seguros-index__first-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    max-width: max-content;
+    background: var(--cor-10);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.seguros-index__first-button:hover {
+    background: var(--cor-9);
+}
+
+.seguros-index__second-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    max-width: max-content;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.seguros-index__second-button:hover {
+    background: linear-gradient(#ffb60d, #e59317)
+}
+
+@media (max-width: 800px) {
+    .title-index {
+        background: var(--cor-11);
+        padding-top: 40px;
+        box-shadow: inset 0 -60px var(--cor-0);
+        max-width: 100%;
+    }
+
+    .title-index__container {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .title-index__content {
+        padding-bottom: 20px;
+    }
+
+    .title-index__title {
+        margin-bottom: 16px;
+    }
+
+    .title-index__title,
+    .bicicletas-index__title,
+    .tecnologia__title-2,
+    .parceiros__title,
+    .seguros-index__title {
+        font-size: 2rem;
+    }
+
+    .title-index__description,
+    .tecnologia__title-1,
+    .tecnologia__description {
+        font-size: 1.125rem;
+        margin-bottom: 33px;
+    }
+
+    .title-index img {
+        height: 300px;
+    }
+
+    .tecnologia {
+        box-shadow: initial;
+    }
+
+    .tecnologia__container {
+        grid-template-columns: 1fr;
+    }
+
+    .tecnologia__content {
+        padding: 60px 0;
+    }
+
+    .tecnologia__image {
+        display: none;
+    }
+
+    .parceiros__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .parceiros img {
+        margin: auto;
+    }
+
+    .parceiros li:nth-child(n + 3) {
+        border-top: 2px solid var(--cor-2);
+    }
+
+    .depoimento__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .depoimento img {
+        max-height: 200px;
+    }
+    .depoimento__content {
+        padding: 40px 20px;
+        margin: auto;
+    }
+
+    .depoimento__quote,
+    .seguros-index__title-1,
+    .seguros-index__title-2,
+    .seguros-index__price {
+        font-size: 1.5rem;
+    }
+
+    .seguros-index__container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .title-index__button,
+    .seguros-index__first-button,
+    .seguros-index__second-button {
+        padding: 14px 16px;
+        font-size: 1rem;
+    }
+
+    .tecnologia__vantagens {
+        flex-direction: column;
+    }
+}

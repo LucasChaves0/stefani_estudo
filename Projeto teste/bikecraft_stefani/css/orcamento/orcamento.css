@@ -1,0 +1,121 @@
+/* SEÇÃO 1 (titulo) */
+
+.title {
+    padding: 60px 0;
+}
+
+.title__container {
+    max-width: 1160px;
+    margin: 0 auto;
+    background: url(../../img/dec/top-right.svg) no-repeat top right;
+}
+
+.title__title-1 {
+    margin-bottom: 4px;
+}
+
+.orcamento {
+    background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
+}
+
+.orcamento__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    padding: 0 20px 120px 20px;
+    box-sizing: border-box;
+}
+
+.orcamento__title,
+.orcamento__title-2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.orcamento__title-2,
+.orcamento__data-2,
+.orcamento__button {
+    grid-column: 1/3;
+}
+
+.orcamento h2::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    background-color: var(--cor-p1);
+    position: absolute;
+    left: -12px;
+}
+
+.orcamento__products,
+.orcamento__data {
+    padding: 60px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.orcamento__products {
+    background: var(--cor-12) url(../../img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;
+    border-radius: 5px 0 0 5px;
+}
+
+.orcamento__products label {
+    font: 400 1rem/1.5 "Poppins", sans-serif;
+    color: var(--cor-4);
+    background-color: var(--cor-10);
+    padding: 12px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    border: 1px solid var(--cor-10);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.orcamento__container label {
+    display: block;
+    font: 400 1rem/1.5 "Poppins", sans-serif;
+    margin-bottom: 4px;
+}
+
+.orcamento__data {
+    background: var(--cor-0) url(../../img/dec/bottom-right.svg) no-repeat bottom 20px right 20px;
+    border-radius: 0 5px 5px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-content: start;
+}
+
+.orcamento__data input[type="text"],
+.orcamento__data input[type="email"] {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    background: var(--cor-1);
+    border: 1px solid var(--cor-2);
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.orcamento__button {
+    display: inline-block;
+    max-width: max-content;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    color: var(--cor-p5);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    text-transform: uppercase;
+}

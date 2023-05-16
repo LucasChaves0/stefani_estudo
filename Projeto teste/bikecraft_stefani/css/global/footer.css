@@ -1,6 +1,5 @@
 .footer {
     padding: 60px 20px 60px 20px;
-    max-width: 1900px;
 }
 
 .footer__container {
@@ -50,6 +49,28 @@
 
 .footer p { 
     max-width: 1160px;
-    margin: 80px auto 0;
+    margin: 80px auto 10px;
     padding: ;
+}
+
+@media (max-width: 800px) {
+
+    .footer__logo {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__container {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .footer h3 {
+        font-size: 1.125rem;
+    }
+
+    .footer p {
+        margin-top: 40px;
+    }
 }

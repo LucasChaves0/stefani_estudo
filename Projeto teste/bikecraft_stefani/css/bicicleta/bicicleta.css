@@ -1,0 +1,305 @@
+/* SEÇÃO 1 (titulo) */
+
+.title {
+    padding: 60px 0;
+}
+
+.title__container {
+    max-width: 1160px;
+    margin: 0 auto;
+    background: url(../../img/dec/top-right.svg) no-repeat top right;
+}
+
+.title__price {
+    margin-bottom: 4px;
+}
+
+/* SEÇÃO 2 (bicicleta) */
+
+.bicicleta {
+    background: var(--cor-11);
+    padding: 0px 0px 60px 0px;
+}
+
+.bicicleta__container {
+    box-sizing: border-box;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 0 20px 60px;
+}
+
+.bicicleta__images {
+    max-width: 50%;
+}
+
+.bicicleta__top-image {
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+.bicicleta__top-image img {
+    max-width: 560px;
+}
+
+.bicicleta__bottom-images {
+    display: flex;
+    gap: 20px;
+}
+
+.bicicleta__bottom-images img {
+    max-width: 270px;
+}
+
+.bicicleta__top-image img,
+.bicicleta__bottom-images img {
+    border-radius: 4px;
+}
+
+.bicicleta__content {
+    max-width: 50%;
+}
+
+.bicicleta__description {
+    margin-bottom: 32px;
+}
+
+.bicicleta__wrapper {
+    display: flex;
+    align-content: stretch;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.bicicleta__button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    margin-bottom: 16px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.bicicleta__button:hover {
+    background: linear-gradient(#ffb60d, #e59317);
+}
+
+.bicicleta__purchaseinfo span {
+    display: flex;
+    gap: 8px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: var(--cor-12);
+    margin-bottom: 8px;
+    max-width: max-content;
+}
+
+.bicicleta__content h2 {
+    letter-spacing: 0.015em;
+    margin-bottom: 12px;
+}
+
+.bicicleta__info-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+
+.bicicleta__info-list img {
+    width: 24px;
+    margin-bottom: 8px;
+}
+
+.bicicleta__info-list-title {
+    margin-bottom: 8px;
+}
+
+.bicicleta__info-list, 
+.bicicleta__datasheet-list {
+    padding: 32px;
+    background-color: var(--cor-12);
+    border-radius: 4px;
+}
+
+.bicicleta__datasheet li {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid var(--cor-11);
+}
+
+.bicicleta__datasheet li:last-child {
+    border-bottom: none;
+}
+
+/* SEÇÃO 3 (escolha a sua) */
+
+.bike-list__container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding: 0 20px 20px 20px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.bike-list {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.bike-list__title {
+    margin-bottom: 40px;
+}
+
+.bike-list ul {
+    display: flex;
+    gap: 40px;
+}
+
+.bike-list img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+
+.bike-list h3::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 8px;
+    background: var(--cor-p1);
+    margin-right: 8px;
+    transition: 0.2s;
+}
+
+.bike-list a:hover h3::before {
+    width: 24px;
+}
+
+.bike-list h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.bike-list__price {
+    padding: 20px;
+}
+
+/* SEÇÃO 4 (seguro) */
+
+.seguro-bike {
+    background: var(--cor-11);
+    box-shadow: inset 0 120px var(--cor-0), inset 0 -120px var(--cor-12);
+}
+
+.seguro-bike__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.seguro-bike__image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.seguro-bike__content {
+    padding: 180px 0;
+}
+
+.seguro-bike__title {
+    margin-bottom: 32px;
+}
+
+.seguro-bike__description {
+    margin-bottom: 20px;
+}
+
+.seguro-bike__button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.seguro-bike__button:hover {
+    background: linear-gradient(#ffb60d, #e59317);
+}
+
+@media (max-width: 1200px) {
+    .bicicleta__description,
+    .seguro-bike__description {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .title {
+        padding: 40px 20px;
+    }
+
+    .title__price {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .bicicleta__container {
+        flex-direction: column-reverse;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .bicicleta__bottom-images {
+        flex-direction: column;
+    }
+
+    .bicicleta__bottom-images img {
+        width: 374px;
+    }
+
+    .bicicleta__content {
+        max-width: 100%;
+    }
+
+    .bike-list__title,
+    .seguro-bike__title {
+        font-size: 2rem;
+    }
+
+    .bike-list__subtitle {
+        font-size: 1.5rem;
+    }
+
+    .seguro-bike {
+        box-shadow: inset 0 -60px var(--cor-12);
+    }
+    .seguro-bike__container {
+        grid-template-columns: 1fr;
+    }
+    .seguro-bike__content {
+        grid-row: 1;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .bicicleta__button,
+    .seguro-bike__button {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+}
