@@ -177,6 +177,16 @@
     transform: rotate(180deg);
 }
 
+@media (max-width: 1200px) {
+    .title__title-1 {
+        font-size: 1.125rem;
+    }
+
+    .title__title-2 {
+        font-size: 3rem;
+    }
+}
+
 @media (max-width: 800px) {
     .title {
         padding: 40px 20px;
