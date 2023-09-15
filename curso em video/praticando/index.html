@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praticando</title>
+  </head>
+  <body>
+    <script>
+      let textRaio = prompt("Forneça o raio do seu circulo: ");
+      let raio = Number(textRaio);
+
+      function calculaCirculo() {
+        return `Perímetro: ${2 * Math.PI * raio} <br> Área: ${
+          Math.PI * raio ** 2
+        }`;
+      }
+
+      let res = document.write(calculaCirculo());
+    </script>
+  </body>
+</html>

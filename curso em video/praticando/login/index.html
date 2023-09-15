@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h2 class="title">Cadastre-se</h2>
+        <form id="form" action="#">
+          <label for="user" class="user">Usuário:</label>
+          <input type="text" name="user" id="user" required />
+
+          <label for="email" class="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+
+          <label for="password" class="password">Senha:</label>
+          <input type="password" name="password" id="password" required />
+
+          <label for="passwordConfirm" class="password"
+            >Confirme sua senha:</label
+          >
+          <input
+            type="password"
+            name="passwordConfirm"
+            id="passwordConfirm"
+            required
+          />
+
+          <input
+            type="button"
+            class="button"
+            value="Cadastrar-se"
+            onclick="register()"
+          />
+        </form>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
